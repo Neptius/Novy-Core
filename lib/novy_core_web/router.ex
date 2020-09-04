@@ -7,6 +7,8 @@ defmodule NovyCoreWeb.Router do
 
   scope "/api", NovyCoreWeb do
     pipe_through :api
+
+    get "/auth/webhook", AuthController, :webhook
   end
 
   # Enables LiveDashboard only for development

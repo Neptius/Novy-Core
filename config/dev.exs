@@ -16,7 +16,7 @@ config :novy_core, NovyCore.Repo,
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
 config :novy_core, NovyCoreWeb.Endpoint,
-  http: [port: 10000],
+  http: [port: 10001],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
