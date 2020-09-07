@@ -4,7 +4,7 @@ use Mix.Config
 config :novy_core, NovyCore.Repo,
   username: "postgres",
   password: "pass",
-  database: "novy_db_dev",
+  database: "novy_db",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10

@@ -3,7 +3,7 @@ defmodule NovyCoreWeb.AuthController do
 
   def webhook(conn, _params) do
     hasura = %{
-      "X-Hasura-Role": "user"
+      "X-Hasura-Role": "admin"
     }
     render(conn, "webhook.json", hasura: hasura)
   end
